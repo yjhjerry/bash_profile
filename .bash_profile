@@ -1,5 +1,4 @@
 #!/bin/bash
-test
 
 #aliases
 alias ll="ls -alF"
@@ -13,3 +12,11 @@ export HISTFILESIZE=
 export HISTSIZE=
 export HISTTIMEFORMAT="[%F %T] "
 
+#docker
+alias dm="docker-machine"
+alias dc="docker-compose"
+alias dm-env="eval $(docker-machine env)"
+
+#git aliases
+alias gc="git commit -am"
+alias gp="git push"
