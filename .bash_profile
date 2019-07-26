@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#aliases
+#ls aliases
 alias ll="ls -alF"
 alias la="ls -A"
 
@@ -20,3 +20,6 @@ alias dm-env="eval $(docker-machine env)"
 #git aliases
 alias gc="git commit -am"
 alias gp="git push"
+
+#smiles
+alias cdsmiles="cd ~/Documents/MMAP/htdocs/wp-content/themes/smiles"
