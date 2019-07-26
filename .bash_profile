@@ -20,6 +20,7 @@ alias dm-env="eval $(docker-machine env)"
 #git aliases
 alias gc="git commit -am"
 alias gp="git push"
+alias gd="git diff"
 
 #smiles
 alias cdsmiles="cd ~/Documents/MMAP/htdocs/wp-content/themes/smiles"
