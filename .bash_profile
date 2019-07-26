@@ -1,4 +1,5 @@
 #!/bin/bash
+test
 
 #aliases
 alias ll="ls -alF"
