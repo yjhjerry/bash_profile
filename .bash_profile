@@ -13,12 +13,9 @@ export HISTFILESIZE=
 export HISTSIZE=
 export HISTTIMEFORMAT="[%F %T] "
 
-#export PS1="\\u@\h \\W \\$ "
-
 #docker
 alias dm="docker-machine"
 alias dc="docker-compose"
-#alias dm-env="eval $(docker-machine env)"
 
 #git aliases
 alias gc="git commit -am"
