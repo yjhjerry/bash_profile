@@ -19,7 +19,8 @@ alias dc="docker-compose"
 
 #git aliases
 alias gc="git commit -am"
-alias gp="git push"
+alias gpush="git push"
+alias gpull="git push"
 alias gd="git diff"
 
 #smiles
