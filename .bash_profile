@@ -15,7 +15,6 @@ export HISTTIMEFORMAT="[%F %T] "
 
 #export PS1="\\u@\h \\W \\$ "
 
-=======
 #docker
 alias dm="docker-machine"
 alias dc="docker-compose"
@@ -33,3 +32,5 @@ alias cdsmiles="cd ~/Documents/MMAP/htdocs/wp-content/themes/smiles"
 docker-ip() {
         docker inspect --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "$@"
 }
+
+source .bashrc
