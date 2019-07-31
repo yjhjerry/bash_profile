@@ -3,6 +3,7 @@
 #ls aliases
 alias ll="ls -alF"
 alias la="ls -A"
+alias ll.="ls -ld .?*"
 
 #change directory to Docker directory in Dropbox
 alias cdd="cd ~/Dropbox/Docker/"
@@ -12,8 +13,10 @@ export HISTFILESIZE=
 export HISTSIZE=
 export HISTTIMEFORMAT="[%F %T] "
 
-export PS1="\\u@\h \\W \\$ "
+#export PS1="\\u@\h \\W \\$ "
 
+=======
+#docker
 alias dm="docker-machine"
 alias dc="docker-compose"
 #alias dm-env="eval $(docker-machine env)"
