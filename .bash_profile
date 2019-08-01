@@ -17,6 +17,14 @@ export HISTTIMEFORMAT="[%F %T] "
 alias dm="docker-machine"
 alias dc="docker-compose"
 
+#kubernetes
+alias mk="minikube"
+alias kbctl="kubectl"
+
+#docker-machine & docker in minikube
+# eval $(docker-machine env)   #set the environment to docker-machine API variables
+# eval $(minikube docker-env)  #set the environment to minikube-docker API variables
+
 #git aliases
 alias gc="git commit -am"
 alias gpush="git push"
