@@ -26,7 +26,7 @@ alias kbctl="kubectl"
 # eval $(minikube docker-env)  #set the environment to minikube-docker API variables
 
 #git aliases
-alias gc="git commit -am"
+alias gc="git commit"
 alias gpush="git push"
 alias gpull="git push"
 alias gd="git diff"
