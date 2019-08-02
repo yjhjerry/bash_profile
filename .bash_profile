@@ -27,7 +27,8 @@ alias kbctl="kubectl"
 
 #git aliases
 alias gc="git commit"
-alias gs="git status"
+alias gst="git status"
+alias gsh="git show"
 alias gd="git diff"
 alias gpush="git push"
 alias gpull="git pull"
