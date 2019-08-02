@@ -28,7 +28,7 @@ alias kbctl="kubectl"
 #git aliases
 alias gc="git commit"
 alias gpush="git push"
-alias gpull="git push"
+alias gpull="git pull"
 alias gd="git diff"
 
 #smiles
